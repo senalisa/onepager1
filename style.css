@@ -1,0 +1,463 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Start HEADER */
+
+header {
+    background: url("images/background3.png") no-repeat;
+    background-size: 100% 100%;
+    width: cover;
+    height: 35vw;
+}
+
+ul {
+    padding-left: 90px;
+    padding-top: 70px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 10px;
+    width: 100px;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 120px;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+
+#headerText {
+    font-family: 'Arimo', sans-serif;
+    padding-top: 60px;
+    padding-left: 100px;
+    color: #080A31;
+}
+
+/* End HEADER */
+
+/* Start INFO div */
+
+#info {
+    background-color: #739791;
+    padding: 100px 400px 100px 400px;
+}
+
+#info h5 {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#info p {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* End INFO div */
+
+/* Start ONZEGAME div */
+
+#onze-game {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#onze-game-foto {
+    background: url("images/abckroonverdedigen.png") no-repeat;
+    background-size: 100% 100%;
+    width: 40vw;
+    height: 22vw;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 80px;
+}
+
+#onze-game-text {
+    padding-left: 50vw;
+    padding-right: 5vw;
+    padding-top: 6vw;
+    padding-bottom: 5vw;
+}
+
+#onze-game-text h4 {
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+
+#onze-game-text p{
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    
+}
+
+/* End onze-game div */
+
+/* Start Onderdelen div */
+
+#onderdelen-game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #F8F8F8;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#onderdelen-game h2 {
+    position: absolute;
+    font-size: 35px;
+}
+
+#ond1, #ond2, #ond3, #ond4 {
+    width: 15vw;
+    margin: 20px;
+    padding: 30px;
+    border-style: solid;
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    border-color: #E5E5E5;
+    margin-top: 80px;
+    padding-top: 90px;
+    
+}
+
+#ond1-text, #ond2-text, #ond3-text, #ond4-text {
+    text-align: center;
+}
+
+#ond1-text p, #ond2-text p, #ond3-text p, #ond4-text p {
+    padding-top: 15px;
+} 
+
+#ond1-text h1, #ond2-text h1, #ond3-text h1, #ond4-text h1 {
+    font-size: 30px;
+} 
+
+#ond1-foto {
+    background: url("images/alfabet.png") no-repeat;
+    background-size: 100% 100%;
+    width: 20vw;
+    height: 15vw;
+    position: absolute;
+    top: 135px;
+    left: 180px;
+}
+
+#ond2-foto {
+    background: url("images/klinkers.png") no-repeat;
+    background-size: 100% 100%;
+    width: 20vw;
+    height: 15vw;
+    position: absolute;
+    top: 135px;
+    left: 510px;
+}
+
+#ond3-foto {
+    background: url("images/medeklinkers.png") no-repeat;
+    background-size: 100% 100%;
+    width: 20vw;
+    height: 15vw;
+    position: absolute;
+    top: 135px;
+    left: 865px;
+}
+
+#ond4-foto {
+    background: url("images/kroonwoord.png") no-repeat;
+    background-size: 100% 100%;
+    width: 20vw;
+    height: 15vw;
+    position: absolute;
+    top: 135px;
+    left: 1195px;
+}
+
+/* End Onderdelen */
+
+/* Start Controls */
+
+#controls {
+    background-color: #2A5180;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    
+}
+
+#controls-text {
+    color: white;
+    padding-left: 80px;
+    width: 50vw;
+}
+
+#controls-text h1 {
+    padding-bottom: 20px;
+}
+
+#controls-img {
+    background: url("images/electronics.png") no-repeat;
+    background-size: 100% 100%;
+    width: 40vw;
+    height: 22vw;
+    position: absolute;
+    top: 10px;
+    margin-left: 1000px;
+}
+
+/* End Controls */
+
+/* Start Reviews */
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+}
+
+.container h5 {
+    position: relative;
+    padding-bottom: 60px;
+    padding-left: 27vw;
+    font-size: 40px;
+}
+
+.testimonial{
+
+    margin:0px 160px;
+
+    width: 30vw;
+
+    background-color: #fff;
+
+    color: black;
+
+    text-align: center;
+
+    
+
+}
+
+.testimonial .testimonial-content{
+
+    padding: 40px 10px 60px;
+
+    border-top: 3px solid #EDCA5A;
+
+    border-left: 3px solid #EDCA5A;
+
+    justify-content: center;
+
+
+    position: relative;
+
+    margin-bottom: 50px;
+
+    font-size: 15px;
+
+    line-height: 30px;
+
+    text-align: left;
+
+    font-family: 'Oxygen', sans-serif;
+
+
+}
+
+.testimonial .testimonial-content:before{
+
+    content: "\f10e";
+
+    font-family: fontawesome;
+
+    display: inline-block;
+
+    justify-content: center;
+
+    padding:0 0px 0px 0;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    position:relative;
+
+    top: 12px;
+
+    left: 0px;
+
+}
+
+.testimonial .testimonial-content:after{
+
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 50%;
+
+    height: 1px;
+
+    background-color: #EDCA5A;
+
+}
+
+.testimonial .testimonial-info{
+
+    position: relative;
+
+}
+
+.testimonial .testimonial-info:before{
+
+    content: "";
+
+    position: absolute;
+
+    top: -50px;
+
+    left: 50%;
+
+    background-color: #EDCA5A;
+
+    width: 1px;
+
+    height: 20px;
+
+}
+
+.testimonial .testimonial-info:after{
+
+    content: "";
+
+    position: absolute;
+
+    top: -70px;
+
+    left: 50%;
+
+    background-color: #EDCA5A;
+
+    width: 2px;
+
+    height: 40px;
+
+    transform: skewX(-45deg);
+
+    transform-origin: 100% 100% 0;
+
+}
+
+
+
+.testimonial .testimonial-title{
+
+    display: inline-block;
+
+}
+
+.testimonial .testimonial-title p{
+
+    display: block;
+
+    color:#1C743E;
+
+    font-size: 22px;
+
+    text-transform: capitalize;
+
+    font-size: 30px;
+
+    font-family: 'Oxygen', sans-serif;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+.owl-theme .owl-controls{
+
+    margin-top: 10px;
+
+    margin-left: 30px;
+
+}
+
+.owl-theme .owl-controls .owl-page span{
+
+    height:15px ;
+
+    width: 15px ;
+
+    background-color: #A58E38 ;
+
+    opacity: 0.8 ;
+
+    border-radius: 0 ;
+
+    transform:rotate(45deg) !important;
+
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+
+    background-color: #1C743E;
+
+}
+
+/* End Reviews */
